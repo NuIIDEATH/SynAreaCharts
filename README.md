@@ -4,8 +4,8 @@
 [![GitHub forks](https://img.shields.io/github/forks/NuIIDEATH/SynAreaCharts.svg?style=social&label=Forks)](https://github.com/NuIIDEATH/SynAreaCharts)
 
 DC Synthesis Area Charts is an open-source React application designed to provide an intuitive visualization interface for displaying area data from comprehensive reports.
-This application reads the Synopsys Design Compiler area report and utilizes the visualization library to create interactive charts.
-![Synthesis Area Charts](https://github.com/NuIIDEATH/SynAreaCharts/imgs/SynAreaCharts.png)
+This application reads the Synopsys Design Compiler area report and utilizes the visualization library to create interactive charts. [Give it a try!](https://nuiideath.github.io/SynAreaCharts/)
+![Synthesis Area Charts](https://github.com/NuIIDEATH/SynAreaCharts/blob/main/imgs/SynAreaCharts.png?raw=true)
 
 ## Features
 
