@@ -1,0 +1,13 @@
+diff --git a/node_modules/plotly.js/src/constants/numerical.js b/node_modules/plotly.js/src/constants/numerical.js
+index e7e0a4f..08b949c 100644
+--- a/node_modules/plotly.js/src/constants/numerical.js
++++ b/node_modules/plotly.js/src/constants/numerical.js
+@@ -47,7 +47,7 @@ module.exports = {
+     /*
+      * Are two values nearly equal? Compare to 1PPM
+      */
+-    ALMOST_EQUAL: 1 - 1e-6,
++    ALMOST_EQUAL: 1 - 1e-3,
+ 
+     /*
+      * If we're asked to clip a non-positive log value, how far off-screen

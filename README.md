@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# DC Synthesis Area Charts
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![GitHub stars](https://img.shields.io/github/stars/NuIIDEATH/SynAreaCharts.svg?style=social&label=Stars)](https://github.com/NuIIDEATH/SynAreaCharts)
+[![GitHub forks](https://img.shields.io/github/forks/NuIIDEATH/SynAreaCharts.svg?style=social&label=Forks)](https://github.com/NuIIDEATH/SynAreaCharts)
 
-## Available Scripts
+DC Synthesis Area Charts is an open-source React application designed to provide an intuitive visualization interface for displaying area data from comprehensive reports.
+This application reads the Synopsys Design Compiler area report and utilizes the visualization library to create interactive charts.
+![Synthesis Area Charts](https://github.com/NuIIDEATH/SynAreaCharts/imgs/SynAreaCharts.png)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Interactive Charts**: Create dynamic and interactive charts with Plotly.js.
+- **Multiple Chart Types**: Supports various chart types such as treemap, icicle, and sunburst.
+- **Customizable Color Schemes**: Choose from a range of color schemes and control the display of the color bar.
+- **Data Depth Control**: Adjust the depth of data displayed in the chart to suit your needs.
+- **File Parsing**: Parse files in specific formats and extract data for chart display.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. **Install Dependencies**:
 
-### `npm test`
+   ```bash
+   npm install
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Run the Application**:
 
-### `npm run build`
+```bash
+ npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. **Upload File**:
+   Use the application interface to upload comprehensive report files, which will then be parsed and displayed in the chart.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+or just use the Released Version of the html, which is under the docs folder, copy the files to your local environment and open the html using any browser you like.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Acknowledgements
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Plotly.js**: For providing the powerful and flexible charting library that powers the visualizations.
+- **Material-UI Core**: For delivering a robust set of UI components that enhance the user interface of the application.
